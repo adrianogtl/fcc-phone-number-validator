@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Phone Number Validator</h1>
+      <form id="form">
+        <input
+          id="user-input"
+          class="input"
+          type="text"
+          autofocus
+          placeholder="x (xxx) xxx xxxx"
+          maxlength="30"
+        />
+        <button id="check-btn" class="btn" type="button" value="check">
+          Check
+        </button>
+        <button id="clear-btn" class="btn" type="button" value="clear">
+          Clear
+        </button>
+      </form>
+      <div id="results-div"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
