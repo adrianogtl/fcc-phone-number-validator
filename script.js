@@ -7,6 +7,7 @@ const regex = /^(1? ?)(\(\d{3}\)|\d{3})( |-|)\d{3}( |-|)\d{4}$/;
 
 userInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
+    e.preventDefault();
     checkPhone();
   }
 });
